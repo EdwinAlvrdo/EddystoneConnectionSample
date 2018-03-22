@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18706F120640623009F39D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18706F020640623009F39D7 /* AppDelegate.swift */; };
+		C18706F320640623009F39D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18706F220640623009F39D7 /* ViewController.swift */; };
+		C18706F620640623009F39D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18706F420640623009F39D7 /* Main.storyboard */; };
+		C18706F920640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */; };
+		C18706FB20640623009F39D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18706FA20640623009F39D7 /* Assets.xcassets */; };
+		C18706FE20640623009F39D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18706FC20640623009F39D7 /* LaunchScreen.storyboard */; };
+		C187070920640623009F39D7 /* EddystoneConnectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187070820640623009F39D7 /* EddystoneConnectionSampleTests.swift */; };
+		C187071420640623009F39D7 /* EddystoneConnectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187071320640623009F39D7 /* EddystoneConnectionSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C187070520640623009F39D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18706E520640623009F39D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18706EC20640623009F39D7;
+			remoteInfo = EddystoneConnectionSample;
+		};
+		C187071020640623009F39D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18706E520640623009F39D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18706EC20640623009F39D7;
+			remoteInfo = EddystoneConnectionSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C18706ED20640623009F39D7 /* EddystoneConnectionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EddystoneConnectionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18706F020640623009F39D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C18706F220640623009F39D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C18706F520640623009F39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EddystoneConnectionSample.xcdatamodel; sourceTree = "<group>"; };
+		C18706FA20640623009F39D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18706FD20640623009F39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18706FF20640623009F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C187070420640623009F39D7 /* EddystoneConnectionSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EddystoneConnectionSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187070820640623009F39D7 /* EddystoneConnectionSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EddystoneConnectionSampleTests.swift; sourceTree = "<group>"; };
+		C187070A20640623009F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C187070F20640623009F39D7 /* EddystoneConnectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EddystoneConnectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187071320640623009F39D7 /* EddystoneConnectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EddystoneConnectionSampleUITests.swift; sourceTree = "<group>"; };
+		C187071520640623009F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18706EA20640623009F39D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070120640623009F39D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070C20640623009F39D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18706E420640623009F39D7 = {
+			isa = PBXGroup;
+			children = (
+				C18706EF20640623009F39D7 /* EddystoneConnectionSample */,
+				C187070720640623009F39D7 /* EddystoneConnectionSampleTests */,
+				C187071220640623009F39D7 /* EddystoneConnectionSampleUITests */,
+				C18706EE20640623009F39D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18706EE20640623009F39D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18706ED20640623009F39D7 /* EddystoneConnectionSample.app */,
+				C187070420640623009F39D7 /* EddystoneConnectionSampleTests.xctest */,
+				C187070F20640623009F39D7 /* EddystoneConnectionSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18706EF20640623009F39D7 /* EddystoneConnectionSample */ = {
+			isa = PBXGroup;
+			children = (
+				C18706F020640623009F39D7 /* AppDelegate.swift */,
+				C18706F220640623009F39D7 /* ViewController.swift */,
+				C18706F420640623009F39D7 /* Main.storyboard */,
+				C18706FA20640623009F39D7 /* Assets.xcassets */,
+				C18706FC20640623009F39D7 /* LaunchScreen.storyboard */,
+				C18706FF20640623009F39D7 /* Info.plist */,
+				C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */,
+			);
+			path = EddystoneConnectionSample;
+			sourceTree = "<group>";
+		};
+		C187070720640623009F39D7 /* EddystoneConnectionSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C187070820640623009F39D7 /* EddystoneConnectionSampleTests.swift */,
+				C187070A20640623009F39D7 /* Info.plist */,
+			);
+			path = EddystoneConnectionSampleTests;
+			sourceTree = "<group>";
+		};
+		C187071220640623009F39D7 /* EddystoneConnectionSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C187071320640623009F39D7 /* EddystoneConnectionSampleUITests.swift */,
+				C187071520640623009F39D7 /* Info.plist */,
+			);
+			path = EddystoneConnectionSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18706EC20640623009F39D7 /* EddystoneConnectionSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187071820640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSample" */;
+			buildPhases = (
+				C18706E920640623009F39D7 /* Sources */,
+				C18706EA20640623009F39D7 /* Frameworks */,
+				C18706EB20640623009F39D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EddystoneConnectionSample;
+			productName = EddystoneConnectionSample;
+			productReference = C18706ED20640623009F39D7 /* EddystoneConnectionSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C187070320640623009F39D7 /* EddystoneConnectionSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187071B20640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSampleTests" */;
+			buildPhases = (
+				C187070020640623009F39D7 /* Sources */,
+				C187070120640623009F39D7 /* Frameworks */,
+				C187070220640623009F39D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C187070620640623009F39D7 /* PBXTargetDependency */,
+			);
+			name = EddystoneConnectionSampleTests;
+			productName = EddystoneConnectionSampleTests;
+			productReference = C187070420640623009F39D7 /* EddystoneConnectionSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C187070E20640623009F39D7 /* EddystoneConnectionSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C187071E20640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSampleUITests" */;
+			buildPhases = (
+				C187070B20640623009F39D7 /* Sources */,
+				C187070C20640623009F39D7 /* Frameworks */,
+				C187070D20640623009F39D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C187071120640623009F39D7 /* PBXTargetDependency */,
+			);
+			name = EddystoneConnectionSampleUITests;
+			productName = EddystoneConnectionSampleUITests;
+			productReference = C187070F20640623009F39D7 /* EddystoneConnectionSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18706E520640623009F39D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Edwin Alvarado";
+				TargetAttributes = {
+					C18706EC20640623009F39D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C187070320640623009F39D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C18706EC20640623009F39D7;
+					};
+					C187070E20640623009F39D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C18706EC20640623009F39D7;
+					};
+				};
+			};
+			buildConfigurationList = C18706E820640623009F39D7 /* Build configuration list for PBXProject "EddystoneConnectionSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18706E420640623009F39D7;
+			productRefGroup = C18706EE20640623009F39D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18706EC20640623009F39D7 /* EddystoneConnectionSample */,
+				C187070320640623009F39D7 /* EddystoneConnectionSampleTests */,
+				C187070E20640623009F39D7 /* EddystoneConnectionSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18706EB20640623009F39D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18706FE20640623009F39D7 /* LaunchScreen.storyboard in Resources */,
+				C18706FB20640623009F39D7 /* Assets.xcassets in Resources */,
+				C18706F620640623009F39D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070220640623009F39D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070D20640623009F39D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18706E920640623009F39D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18706F320640623009F39D7 /* ViewController.swift in Sources */,
+				C18706F120640623009F39D7 /* AppDelegate.swift in Sources */,
+				C18706F920640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070020640623009F39D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187070920640623009F39D7 /* EddystoneConnectionSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C187070B20640623009F39D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187071420640623009F39D7 /* EddystoneConnectionSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C187070620640623009F39D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18706EC20640623009F39D7 /* EddystoneConnectionSample */;
+			targetProxy = C187070520640623009F39D7 /* PBXContainerItemProxy */;
+		};
+		C187071120640623009F39D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18706EC20640623009F39D7 /* EddystoneConnectionSample */;
+			targetProxy = C187071020640623009F39D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C18706F420640623009F39D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18706F520640623009F39D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C18706FC20640623009F39D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18706FD20640623009F39D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C187071620640623009F39D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C187071720640623009F39D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C187071920640623009F39D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C187071A20640623009F39D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C187071C20640623009F39D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EddystoneConnectionSample.app/EddystoneConnectionSample";
+			};
+			name = Debug;
+		};
+		C187071D20640623009F39D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EddystoneConnectionSample.app/EddystoneConnectionSample";
+			};
+			name = Release;
+		};
+		C187071F20640623009F39D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EddystoneConnectionSample;
+			};
+			name = Debug;
+		};
+		C187072020640623009F39D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = EddystoneConnectionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EddystoneConnectionSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18706E820640623009F39D7 /* Build configuration list for PBXProject "EddystoneConnectionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187071620640623009F39D7 /* Debug */,
+				C187071720640623009F39D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187071820640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187071920640623009F39D7 /* Debug */,
+				C187071A20640623009F39D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187071B20640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187071C20640623009F39D7 /* Debug */,
+				C187071D20640623009F39D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C187071E20640623009F39D7 /* Build configuration list for PBXNativeTarget "EddystoneConnectionSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C187071F20640623009F39D7 /* Debug */,
+				C187072020640623009F39D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */,
+			);
+			currentVersion = C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */;
+			path = EddystoneConnectionSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C18706E520640623009F39D7 /* Project object */;
+}
