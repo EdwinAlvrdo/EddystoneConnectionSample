@@ -10,11 +10,15 @@
 		C18706F120640623009F39D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18706F020640623009F39D7 /* AppDelegate.swift */; };
 		C18706F320640623009F39D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18706F220640623009F39D7 /* ViewController.swift */; };
 		C18706F620640623009F39D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18706F420640623009F39D7 /* Main.storyboard */; };
-		C18706F920640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */; };
 		C18706FB20640623009F39D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18706FA20640623009F39D7 /* Assets.xcassets */; };
 		C18706FE20640623009F39D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18706FC20640623009F39D7 /* LaunchScreen.storyboard */; };
 		C187070920640623009F39D7 /* EddystoneConnectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187070820640623009F39D7 /* EddystoneConnectionSampleTests.swift */; };
 		C187071420640623009F39D7 /* EddystoneConnectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187071320640623009F39D7 /* EddystoneConnectionSampleUITests.swift */; };
+		C187072520640735009F39D7 /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187072420640734009F39D7 /* BeaconScanner.swift */; };
+		C187072720640747009F39D7 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187072620640747009F39D7 /* DispatchTimer.swift */; };
+		C187072920640753009F39D7 /* Eddystone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187072820640753009F39D7 /* Eddystone.swift */; };
+		C187072C20640F91009F39D7 /* LabelMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187072B20640F91009F39D7 /* LabelMedium.swift */; };
+		C187072E206411B2009F39D7 /* UIView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187072D206411B2009F39D7 /* UIView+Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		C18706F020640623009F39D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C18706F220640623009F39D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C18706F520640623009F39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EddystoneConnectionSample.xcdatamodel; sourceTree = "<group>"; };
 		C18706FA20640623009F39D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18706FD20640623009F39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C18706FF20640623009F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		C187070F20640623009F39D7 /* EddystoneConnectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EddystoneConnectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C187071320640623009F39D7 /* EddystoneConnectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EddystoneConnectionSampleUITests.swift; sourceTree = "<group>"; };
 		C187071520640623009F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C187072420640734009F39D7 /* BeaconScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconScanner.swift; sourceTree = "<group>"; };
+		C187072620640747009F39D7 /* DispatchTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
+		C187072820640753009F39D7 /* Eddystone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eddystone.swift; sourceTree = "<group>"; };
+		C187072B20640F91009F39D7 /* LabelMedium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelMedium.swift; sourceTree = "<group>"; };
+		C187072D206411B2009F39D7 /* UIView+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utilities.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,13 @@
 		C18706EF20640623009F39D7 /* EddystoneConnectionSample */ = {
 			isa = PBXGroup;
 			children = (
+				C18707222064069A009F39D7 /* Controllers */,
 				C18706F020640623009F39D7 /* AppDelegate.swift */,
 				C18706F220640623009F39D7 /* ViewController.swift */,
 				C18706F420640623009F39D7 /* Main.storyboard */,
 				C18706FA20640623009F39D7 /* Assets.xcassets */,
 				C18706FC20640623009F39D7 /* LaunchScreen.storyboard */,
 				C18706FF20640623009F39D7 /* Info.plist */,
-				C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */,
 			);
 			path = EddystoneConnectionSample;
 			sourceTree = "<group>";
@@ -126,6 +134,34 @@
 				C187071520640623009F39D7 /* Info.plist */,
 			);
 			path = EddystoneConnectionSampleUITests;
+			sourceTree = "<group>";
+		};
+		C18707222064069A009F39D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C187072A20640F7A009F39D7 /* General View Classes */,
+				C1870723206406C4009F39D7 /* Eddystone */,
+				C187072D206411B2009F39D7 /* UIView+Utilities.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1870723206406C4009F39D7 /* Eddystone */ = {
+			isa = PBXGroup;
+			children = (
+				C187072420640734009F39D7 /* BeaconScanner.swift */,
+				C187072620640747009F39D7 /* DispatchTimer.swift */,
+				C187072820640753009F39D7 /* Eddystone.swift */,
+			);
+			path = Eddystone;
+			sourceTree = "<group>";
+		};
+		C187072A20640F7A009F39D7 /* General View Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C187072B20640F91009F39D7 /* LabelMedium.swift */,
+			);
+			path = "General View Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C187072920640753009F39D7 /* Eddystone.swift in Sources */,
+				C187072C20640F91009F39D7 /* LabelMedium.swift in Sources */,
 				C18706F320640623009F39D7 /* ViewController.swift in Sources */,
+				C187072520640735009F39D7 /* BeaconScanner.swift in Sources */,
 				C18706F120640623009F39D7 /* AppDelegate.swift in Sources */,
-				C18706F920640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld in Sources */,
+				C187072720640747009F39D7 /* DispatchTimer.swift in Sources */,
+				C187072E206411B2009F39D7 /* UIView+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Y28RG35Z;
 				INFOPLIST_FILE = EddystoneConnectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Y28RG35Z;
 				INFOPLIST_FILE = EddystoneConnectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.estimoteConnectionSample.EddystoneConnectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -562,19 +604,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C18706F720640623009F39D7 /* EddystoneConnectionSample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */,
-			);
-			currentVersion = C18706F820640623009F39D7 /* EddystoneConnectionSample.xcdatamodel */;
-			path = EddystoneConnectionSample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C18706E520640623009F39D7 /* Project object */;
 }
